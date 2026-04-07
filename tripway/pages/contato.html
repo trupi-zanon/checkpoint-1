@@ -25,28 +25,35 @@
         <section>
 
             <form>
+                <div>
+                    <label for="name">Nome</label>
+                    <input type="text" id="age" placeholder="Ex: Joâo da Silva" required>
 
-                <label for="name">Nome</label>
-                <input type="text" id="age" placeholder="Ex: Joâo da Silva" required>
+                    <label for="email">e-mail</label>
+                    <input type="email" id="email" placeholder="Ex: example@example.com.br" required>
+                </div>
 
-                <label for="email">e-mail</label>
-                <input type="email" id="email" placeholder="Ex: example@example.com.br" required>
+                <div>
+                    <label for="destino">Destino de interesse</label>
+                    <select id="destino" required>
+                        <option value="salvador">Salvador</option>
+                        <option value="rio">Rio de Janeiro</option>
+                        <option value="amazonas">Amazonas</option>
+                    </select>
 
-                <label for="destino">Destino de interesse</label>
-                <select id="destino" required>
-                    <option value="salvador">Salvador</option>
-                    <option value="rio">Rio de Janeiro</option>
-                    <option value="amazonas">Amazonas</option>
-                </select>
+                    <label for="date">Data</label>
+                    <input type="date" id="date" required>
+                </div>
 
-                <label for="date">Data</label>
-                <input type="date" id="date" required>
+                <div>
+                    <label for="viajantes">Quantidade de pessoas</label>
+                    <input type="number" id="viajantes" placeholder="Ex: 2" required>
+                </div>
 
-                <label for="viajantes">Quantidade de pessoas</label>
-                <input type="number" id="viajantes" placeholder="Ex: 2" required>
-
-                <label for="message">Mensagem</label>
-                <input type="text" id="message" placeholder="Digite aqui suas dúvidas!">
+                <div>
+                    <label for="message">Mensagem</label>
+                    <input type="text" id="message" placeholder="Digite aqui suas dúvidas!">
+                </div>
 
                 <button type="submit">Enviar</button>
 
