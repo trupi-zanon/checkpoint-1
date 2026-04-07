@@ -27,27 +27,32 @@
             <form>
                 <div>
                     <label for="name">Nome</label>
-                    <input type="text" id="age" placeholder="Ex: Joâo da Silva" required>
+                    <input type="text" id="age" placeholder="Ex: João da Silva" required>
 
                     <label for="email">e-mail</label>
                     <input type="email" id="email" placeholder="Ex: example@example.com.br" required>
                 </div>
 
                 <div>
-                    <label for="destino">Destino de interesse</label>
-                    <select id="destino" required>
+                    <label for="destination">Selecione o destino da sua viagem</label>
+                    <select id="destination" required>
                         <option value="salvador">Salvador</option>
                         <option value="rio">Rio de Janeiro</option>
                         <option value="amazonas">Amazonas</option>
                     </select>
-
-                    <label for="date">Data</label>
-                    <input type="date" id="date" required>
                 </div>
 
                 <div>
-                    <label for="viajantes">Quantidade de pessoas</label>
-                    <input type="number" id="viajantes" placeholder="Ex: 2" required>
+                    <label for="depart">Data de ida</label>
+                    <input type="date" id="depart" required>
+
+                    <label for="return">Data de volta</label>
+                    <input type="date" id="return" required>
+                </div>
+
+                <div>
+                    <label for="people">Quantas pessoas irão viajar no total?</label>
+                    <input type="number" id="people" placeholder="Ex: 2" required>
                 </div>
 
                 <div>
