@@ -1,5 +1,4 @@
 .logo {
-    /* flexbox */
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -10,11 +9,9 @@
 }
 
 nav {
-    /* flexbox */
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     height: 10vh;
     background-color: #f0f2f5;
     padding: 0 5%;
@@ -40,4 +37,66 @@ nav {
 #nav-active {
     border-bottom: 3px #00b894 solid;
     color: #00b894;
+}
+
+@media(max-width: 1024px){
+
+    .logo{
+        font-size: 1.4rem;
+    }
+    .nav-links{
+        gap: 1.2rem;
+    }
+    .nav-link{
+        font-size: 0.95rem;
+    }
+}
+
+/* TABLET */
+@media(max-width: 768px){
+
+    nav{
+        height: auto;
+        padding: 1rem 5%;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .nav-links{
+        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .logo{
+        font-size: 1.3rem;
+    }
+}
+
+/* CELULAR GRANDE */
+@media(max-width: 600px){
+
+    .nav-links{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.8rem;
+    }
+    .nav-link{
+        font-size: 0.95rem;
+    }
+    nav{
+        padding: 1rem;
+    }
+}
+
+@media(max-width: 480px){
+
+    .logo{
+        font-size: 1.1rem;
+    }
+    .nav-link{
+        font-size: 0.9rem;
+    }
+    .nav-links{
+        gap: 0.6rem;
+    }
 }
