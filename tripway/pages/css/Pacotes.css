@@ -1,0 +1,57 @@
+<section class="tripway-pacotes">
+
+    <div class="pacote-card">
+
+        <img 
+        src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+        alt="Praia Nordeste">
+
+        <div class="pacote-info">
+
+            <h3>Explorando o Nordeste</h3>
+
+            <p>
+                7 dias com hotel, café da manhã,
+                passeios e passagens inclusas.
+            </p>
+
+            <span class="pacote-preco">
+                A partir de R$ 2.490
+            </span>
+
+            <a href="#" class="btn-pacote">
+                Ver Detalhes
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="pacote-card">
+
+        <img 
+        src="https://images.unsplash.com/photo-1506744038136-46273834b3fb"
+        alt="Serra Gaúcha">
+
+        <div class="pacote-info">
+
+            <h3>Serra Gaúcha Especial</h3>
+
+            <p>
+                Conheça Gramado e Canela
+                com hospedagem premium.
+            </p>
+
+            <span class="pacote-preco">
+                A partir de R$ 1.850
+            </span>
+
+            <a href="#" class="btn-pacote">
+                Ver Detalhes
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
